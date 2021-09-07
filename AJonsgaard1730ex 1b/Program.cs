@@ -16,7 +16,7 @@ namespace AJonsgaard1730ex_1b
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmInvoiceTotal());
         }
     }
 }

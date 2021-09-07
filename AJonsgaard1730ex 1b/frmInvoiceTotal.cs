@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AJonsgaard1730ex_1b
 {
-    public partial class Form1 : Form
+    public partial class frmInvoiceTotal : Form
     {
-        public Form1()
+        public frmInvoiceTotal()
         {
             InitializeComponent();
         }

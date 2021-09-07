@@ -73,10 +73,9 @@ namespace AJonsgaard1730ex_1b
             // 
             this.txtDiscountPercent.Location = new System.Drawing.Point(165, 46);
             this.txtDiscountPercent.Name = "txtDiscountPercent";
-            this.txtDiscountPercent.ReadOnly = true;
             this.txtDiscountPercent.Size = new System.Drawing.Size(100, 20);
             this.txtDiscountPercent.TabIndex = 3;
-            this.txtDiscountPercent.TabStop = false;
+            this.txtDiscountPercent.Text = "5";
             // 
             // label3
             // 
@@ -93,7 +92,7 @@ namespace AJonsgaard1730ex_1b
             this.txtDicountAmount.Name = "txtDicountAmount";
             this.txtDicountAmount.ReadOnly = true;
             this.txtDicountAmount.Size = new System.Drawing.Size(100, 20);
-            this.txtDicountAmount.TabIndex = 5;
+            this.txtDicountAmount.TabIndex = 7;
             this.txtDicountAmount.TabStop = false;
             // 
             // label4
@@ -112,7 +111,7 @@ namespace AJonsgaard1730ex_1b
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(100, 20);
-            this.txtTotal.TabIndex = 7;
+            this.txtTotal.TabIndex = 9;
             this.txtTotal.TabStop = false;
             // 
             // btnCalculate
@@ -120,7 +119,7 @@ namespace AJonsgaard1730ex_1b
             this.btnCalculate.Location = new System.Drawing.Point(84, 125);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
-            this.btnCalculate.TabIndex = 2;
+            this.btnCalculate.TabIndex = 4;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
@@ -130,7 +129,7 @@ namespace AJonsgaard1730ex_1b
             this.btnExit.Location = new System.Drawing.Point(165, 125);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
-            this.btnExit.TabIndex = 3;
+            this.btnExit.TabIndex = 5;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -141,7 +140,7 @@ namespace AJonsgaard1730ex_1b
             this.label5.Location = new System.Drawing.Point(66, 102);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(34, 13);
-            this.label5.TabIndex = 10;
+            this.label5.TabIndex = 8;
             this.label5.Text = "Total:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 

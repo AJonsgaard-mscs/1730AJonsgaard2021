@@ -20,10 +20,10 @@ namespace _1730AJonsgaard1c1
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             txtHotDogsSubtotal.Text = (
-                4.0m * Convert.ToDecimal(txtHotDogs.Text)
+                4.0m * Convert.ToInt32(txtHotDogs.Text)
                 ).ToString("0.00");
             txtHamburgersSubtotal.Text = (
-                5.0m * Convert.ToDecimal(txtHamburgers.Text)
+                5.0m * Convert.ToInt32(txtHamburgers.Text)
                 ).ToString("0.00");
             txtPretaxtotal.Text = (
                 Convert.ToDecimal(txtHotDogsSubtotal.Text) +

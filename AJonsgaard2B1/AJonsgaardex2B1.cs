@@ -36,7 +36,7 @@ namespace AJonsgaard2B1
 
             decimal europeAmount = Convert.ToDecimal(txtAmountEurope.Text);
             decimal europeRate = Convert.ToDecimal(txtRateEurope.Text);
-            decimal europeToUSD = europeAmount + europeRate;
+            decimal europeToUSD = europeAmount * europeRate;
             txtEuropeToUSD.Text = europeToUSD.ToString("0.00");
 
             decimal totalUSD = bhutanToUSD + australiaToUSD + CostaRicoToUSD + europeToUSD;

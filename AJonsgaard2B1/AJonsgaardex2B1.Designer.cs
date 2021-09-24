@@ -98,6 +98,7 @@ namespace AJonsgaard2B1
             // 
             // txtUSTotal
             // 
+            this.txtUSTotal.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txtUSTotal.Location = new System.Drawing.Point(571, 159);
             this.txtUSTotal.Name = "txtUSTotal";
             this.txtUSTotal.ReadOnly = true;
@@ -117,6 +118,7 @@ namespace AJonsgaard2B1
             // 
             // txtEuropeToUSD
             // 
+            this.txtEuropeToUSD.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txtEuropeToUSD.Location = new System.Drawing.Point(425, 159);
             this.txtEuropeToUSD.Name = "txtEuropeToUSD";
             this.txtEuropeToUSD.ReadOnly = true;
@@ -128,6 +130,7 @@ namespace AJonsgaard2B1
             // 
             // txtCostaRicaToUSD
             // 
+            this.txtCostaRicaToUSD.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txtCostaRicaToUSD.Location = new System.Drawing.Point(316, 159);
             this.txtCostaRicaToUSD.Name = "txtCostaRicaToUSD";
             this.txtCostaRicaToUSD.ReadOnly = true;
@@ -139,6 +142,7 @@ namespace AJonsgaard2B1
             // 
             // txtBhutanToUSD
             // 
+            this.txtBhutanToUSD.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txtBhutanToUSD.Location = new System.Drawing.Point(207, 159);
             this.txtBhutanToUSD.Name = "txtBhutanToUSD";
             this.txtBhutanToUSD.ReadOnly = true;
@@ -150,6 +154,7 @@ namespace AJonsgaard2B1
             // 
             // txtAstraliaToUSD
             // 
+            this.txtAstraliaToUSD.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txtAstraliaToUSD.Location = new System.Drawing.Point(98, 159);
             this.txtAstraliaToUSD.Name = "txtAstraliaToUSD";
             this.txtAstraliaToUSD.ReadOnly = true;
@@ -356,6 +361,7 @@ namespace AJonsgaard2B1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(690, 266);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReset);

@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJonsgaard2D1", "AJonsgaard
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJonsgaard2E1", "AJonsgaard2E1\AJonsgaard2E1.csproj", "{584909B2-53BC-437D-8A0E-243F4F28311B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJonsgaard2E1UnitTest", "AJonsgaard2E1UnitTest\AJonsgaard2E1UnitTest.csproj", "{7ADFA946-0F6F-4846-BA6B-9914D5E3E5B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{584909B2-53BC-437D-8A0E-243F4F28311B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{584909B2-53BC-437D-8A0E-243F4F28311B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{584909B2-53BC-437D-8A0E-243F4F28311B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADFA946-0F6F-4846-BA6B-9914D5E3E5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADFA946-0F6F-4846-BA6B-9914D5E3E5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADFA946-0F6F-4846-BA6B-9914D5E3E5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADFA946-0F6F-4846-BA6B-9914D5E3E5B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

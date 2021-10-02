@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogicalOperations.cs" />
     <Compile Include="LogicalOperators2E1.cs">
       <SubType>Form</SubType>
     </Compile>

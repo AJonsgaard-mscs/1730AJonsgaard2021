@@ -37,11 +37,13 @@ namespace AJonsgaard2E1
 
             // #01
             decimal subtotal = Convert.ToDecimal(in01ATextbox.Text);
-            re01Textbox.Text = (subtotal >= 250 && subtotal <500).ToString();
+            //re01Textbox.Text = (subtotal >= 250 && subtotal < 500).ToString();
+            re01Textbox.Text = (LogicalOperations.q01(subtotal)).ToString();
 
             // #02
             int timeInService = Convert.ToInt32(in02Textbox.Text);
-            re02Textbox.Text = (timeInService <= 4 || timeInService >= 12).ToString();
+            //re02Textbox.Text = (timeInService <= 4 || timeInService >= 12).ToString();
+            re02Textbox.Text = (LogicalOperations.q02(timeInService)).ToString();
 
             // #03 - 06 initialization
             bool isValid = Convert.ToBoolean(in03TextboxA.Text);
@@ -49,22 +51,26 @@ namespace AJonsgaard2E1
 
             // #03
             int counter = Convert.ToInt32(in03TextboxB.Text);
-            re03Textbox.Text = (isValid == true && counter++ < years).ToString();
+            //re03Textbox.Text = (isValid == true && counter++ < years).ToString();
+            re03Textbox.Text = (LogicalOperations.q03(isValid, years, counter)).ToString();
             SE03Textbox.Text = counter.ToString();
 
             // #04
             counter = Convert.ToInt32(in03TextboxB.Text);
-            re04Textbox.Text = (isValid == true & counter++ < years).ToString();
+            //re04Textbox.Text = (isValid == true & counter++ < years).ToString();
+            re04Textbox.Text = (LogicalOperations.q04(isValid, years, counter)).ToString();
             SE04Textbox.Text = counter.ToString();
 
             // #05
             counter = Convert.ToInt32(in03TextboxB.Text);
-            re05Textbox.Text = (isValid == true || counter++ < years).ToString();
+            //re05Textbox.Text = (isValid == true || counter++ < years).ToString();
+            re05Textbox.Text = (LogicalOperations.q05(isValid, counter, years)).ToString();
             SE05Textbox.Text = counter.ToString();
 
             // #06
             counter = Convert.ToInt32(in03TextboxB.Text);
-            re06Textbox.Text = (isValid == true | counter++ < years).ToString();
+            //re06Textbox.Text = (isValid == true | counter++ < years).ToString();
+            re06Textbox.Text = (LogicalOperations.q06(isValid, counter, years)).ToString();
             SE06Textbox.Text = counter.ToString();
 
             // #07
@@ -72,7 +78,8 @@ namespace AJonsgaard2E1
             DateTime expirationDate = Convert.ToDateTime(in07TextboxB.Text);
             DateTime date = Convert.ToDateTime(in07TextboxC.Text);
             isValid = Convert.ToBoolean(in07TextboxD.Text);
-            re07Textbox.Text = (date > startDate && date < expirationDate || isValid == true).ToString();
+            //re07Textbox.Text = (date > startDate && date < expirationDate || isValid == true).ToString();
+            re07Textbox.Text = (LogicalOperations.q07(startDate, expirationDate, date, isValid)).ToString();
 
             // #08
             decimal thisYTD = Convert.ToDecimal(in08TextboxA.Text);
@@ -80,12 +87,14 @@ namespace AJonsgaard2E1
             string empType = in08TextboxC.Text;
             int startYear = Convert.ToInt32(in08TextboxD.Text);
             int currentYear = Convert.ToInt32(in08TextboxE.Text);
-            re08Textbox.Text = (((thisYTD > lastYTD) || empType == "Past time") && startYear < currentYear).ToString();
+            //re08Textbox.Text = (((thisYTD > lastYTD) || empType == "Past time") && startYear < currentYear).ToString();
+            re08Textbox.Text = (LogicalOperations.q08(thisYTD, lastYTD, empType, startYear, currentYear)).ToString();
 
             // #09
             counter = Convert.ToInt32(in09TextboxA.Text);
             years = Convert.ToInt32(in09TextboxB.Text);
-            re09Textbox.Text = (!(counter++ >= years)).ToString();
+            //re09Textbox.Text = (!(counter++ >= years)).ToString();
+            re09Textbox.Text = (LogicalOperations.q09(counter, years)).ToString();
             SE09Textbox.Text = counter.ToString();
 
             // #10
@@ -99,12 +108,13 @@ namespace AJonsgaard2E1
             //int z = y - d;
             //re10Textbox.Text = z.ToString();
             //re10Textbox.Text = (a > b && b < c || c < d).ToString();
-            bool v = a > b;
-            bool w = b < c;
-            bool x = c < d;
-            bool y = v && w;
-            bool z = y || x;
-            re10Textbox.Text = z.ToString();
+            //bool v = a > b;
+            //bool w = b < c;
+            //bool x = c < d;
+            //bool y = v && w;
+            //bool z = y || x;
+            //re10Textbox.Text = z.ToString();
+            re10Textbox.Text = (LogicalOperations.q10(a, b, c, d)).ToString();
 
             
 

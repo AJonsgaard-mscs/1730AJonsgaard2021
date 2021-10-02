@@ -82,7 +82,7 @@ namespace AJonsgaard2D1
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(20, 311);
+            this.btnCalculate.Location = new System.Drawing.Point(66, 315);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
             this.btnCalculate.TabIndex = 0;
@@ -92,7 +92,7 @@ namespace AJonsgaard2D1
             // 
             // btnSetPassValues1
             // 
-            this.btnSetPassValues1.Location = new System.Drawing.Point(101, 311);
+            this.btnSetPassValues1.Location = new System.Drawing.Point(147, 315);
             this.btnSetPassValues1.Name = "btnSetPassValues1";
             this.btnSetPassValues1.Size = new System.Drawing.Size(108, 23);
             this.btnSetPassValues1.TabIndex = 1;
@@ -192,7 +192,7 @@ namespace AJonsgaard2D1
             // 
             // btnSetFailValues
             // 
-            this.btnSetFailValues.Location = new System.Drawing.Point(215, 311);
+            this.btnSetFailValues.Location = new System.Drawing.Point(261, 315);
             this.btnSetFailValues.Name = "btnSetFailValues";
             this.btnSetFailValues.Size = new System.Drawing.Size(108, 23);
             this.btnSetFailValues.TabIndex = 13;

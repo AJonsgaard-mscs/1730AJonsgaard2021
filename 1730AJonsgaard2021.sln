@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJonsgaard2F if,if-else", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJonsgaard2FUnitTest", "AJonsgaard2FUnitTest\AJonsgaard2FUnitTest.csproj", "{022EB87D-BC37-4251-BA8A-51A2949ED35E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJonsgaard2G1", "AJonsgaard2G1\AJonsgaard2G1.csproj", "{DF09CE63-2237-435D-B4C8-95250B3F3D6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJongaard2G1UnitTests", "AJongaard2G1UnitTests\AJongaard2G1UnitTests.csproj", "{8CB3019E-F325-458B-9110-F9D4625B8D5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{022EB87D-BC37-4251-BA8A-51A2949ED35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{022EB87D-BC37-4251-BA8A-51A2949ED35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{022EB87D-BC37-4251-BA8A-51A2949ED35E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF09CE63-2237-435D-B4C8-95250B3F3D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF09CE63-2237-435D-B4C8-95250B3F3D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF09CE63-2237-435D-B4C8-95250B3F3D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF09CE63-2237-435D-B4C8-95250B3F3D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB3019E-F325-458B-9110-F9D4625B8D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB3019E-F325-458B-9110-F9D4625B8D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB3019E-F325-458B-9110-F9D4625B8D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB3019E-F325-458B-9110-F9D4625B8D5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

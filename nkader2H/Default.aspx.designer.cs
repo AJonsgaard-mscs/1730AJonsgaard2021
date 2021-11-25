@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AJonsgaard2H
+namespace nkader2H
 {
 
 
@@ -114,13 +114,13 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// TextBox4Result control.
+        /// TextBox4aResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4Result;
+        protected global::System.Web.UI.WebControls.TextBox TextBox4aResult;
 
         /// <summary>
         /// Label5 control.
@@ -150,40 +150,40 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// TextBox6aInput control.
+        /// input5aTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6aInput;
+        protected global::System.Web.UI.WebControls.TextBox input5aTextBox;
 
         /// <summary>
-        /// TextBox6bInput control.
+        /// input5bTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6bInput;
+        protected global::System.Web.UI.WebControls.TextBox input5bTextBox;
 
         /// <summary>
-        /// TextBox6cInput control.
+        /// input5cTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6cInput;
+        protected global::System.Web.UI.WebControls.TextBox input5cTextBox;
 
         /// <summary>
-        /// TextBox6Reault control.
+        /// TextBox6aResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6Reault;
+        protected global::System.Web.UI.WebControls.TextBox TextBox6aResult;
 
         /// <summary>
         /// Label7 control.
@@ -195,22 +195,22 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// TextBox7 control.
+        /// input7TextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox input7TextBox;
 
         /// <summary>
-        /// TextBox7Reault control.
+        /// textBox7Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7Reault;
+        protected global::System.Web.UI.WebControls.TextBox textBox7Result;
 
         /// <summary>
         /// Label8 control.
@@ -222,22 +222,22 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// TextBox8 control.
+        /// input8TextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox input8TextBox;
 
         /// <summary>
-        /// TextBox8Reault control.
+        /// textBox8Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8Reault;
+        protected global::System.Web.UI.WebControls.TextBox textBox8Result;
 
         /// <summary>
         /// Label9 control.
@@ -249,31 +249,31 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// TextBox9a control.
+        /// input9aTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9a;
+        protected global::System.Web.UI.WebControls.TextBox input9aTextBox;
 
         /// <summary>
-        /// TextBox9b control.
+        /// input9bTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9b;
+        protected global::System.Web.UI.WebControls.TextBox input9bTextBox;
 
         /// <summary>
-        /// TextBox9Reault control.
+        /// textBox9Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9Reault;
+        protected global::System.Web.UI.WebControls.TextBox textBox9Result;
 
         /// <summary>
         /// Label10 control.
@@ -285,40 +285,40 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// TextBox10a control.
+        /// input10aTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox10a;
+        protected global::System.Web.UI.WebControls.TextBox input10aTextBox;
 
         /// <summary>
-        /// TextBox10b control.
+        /// input10bTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox10b;
+        protected global::System.Web.UI.WebControls.TextBox input10bTextBox;
 
         /// <summary>
-        /// TextBox10Reault control.
+        /// textBox10Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox10Reault;
+        protected global::System.Web.UI.WebControls.TextBox textBox10Result;
 
         /// <summary>
-        /// DateCalculationsButton control.
+        /// dateCalculationButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DateCalculationsButton;
+        protected global::System.Web.UI.WebControls.Button dateCalculationButton;
 
         /// <summary>
         /// Label11 control.
@@ -339,13 +339,13 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.TextBox TextBox11;
 
         /// <summary>
-        /// TextBox11Reault control.
+        /// TextBox11Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox11Reault;
+        protected global::System.Web.UI.WebControls.TextBox TextBox11Result;
 
         /// <summary>
         /// Label12 control.
@@ -366,13 +366,13 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.TextBox TextBox12;
 
         /// <summary>
-        /// TextBox12Reault control.
+        /// TextBox12Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox12Reault;
+        protected global::System.Web.UI.WebControls.TextBox TextBox12Result;
 
         /// <summary>
         /// Label13 control.
@@ -393,13 +393,13 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.TextBox TextBox13;
 
         /// <summary>
-        /// TextBox13Reault control.
+        /// TextBox13Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox13Reault;
+        protected global::System.Web.UI.WebControls.TextBox TextBox13Result;
 
         /// <summary>
         /// Label14 control.
@@ -420,13 +420,13 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.TextBox TextBox14;
 
         /// <summary>
-        /// TextBox14Reault control.
+        /// TextBox14Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox14Reault;
+        protected global::System.Web.UI.WebControls.TextBox TextBox14Result;
 
         /// <summary>
         /// Label15 control.
@@ -447,13 +447,13 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.TextBox TextBox15;
 
         /// <summary>
-        /// TextBox15Reault control.
+        /// TextBox15Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox15Reault;
+        protected global::System.Web.UI.WebControls.TextBox TextBox15Result;
 
         /// <summary>
         /// Label16 control.
@@ -474,13 +474,13 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.TextBox TextBox16;
 
         /// <summary>
-        /// TextBox16Reault control.
+        /// TextBox16Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox16Reault;
+        protected global::System.Web.UI.WebControls.TextBox TextBox16Result;
 
         /// <summary>
         /// Label17 control.
@@ -501,13 +501,13 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.TextBox TextBox17;
 
         /// <summary>
-        /// TextBox17Reault control.
+        /// TextBox17Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox17Reault;
+        protected global::System.Web.UI.WebControls.TextBox TextBox17Result;
 
         /// <summary>
         /// Label18 control.
@@ -528,13 +528,13 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.TextBox TextBox18;
 
         /// <summary>
-        /// TextBox18Reault control.
+        /// TextBox18Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox18Reault;
+        protected global::System.Web.UI.WebControls.TextBox TextBox18Result;
 
         /// <summary>
         /// Label19 control.
@@ -555,13 +555,13 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.TextBox TextBox19;
 
         /// <summary>
-        /// TextBox19Reault control.
+        /// TextBox19Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox19Reault;
+        protected global::System.Web.UI.WebControls.TextBox TextBox19Result;
 
         /// <summary>
         /// Label20 control.
@@ -582,12 +582,12 @@ namespace AJonsgaard2H
         protected global::System.Web.UI.WebControls.Label Label20Result;
 
         /// <summary>
-        /// StringCalculationsButton control.
+        /// StringCalculationButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button StringCalculationsButton;
+        protected global::System.Web.UI.WebControls.Button StringCalculationButton;
     }
 }

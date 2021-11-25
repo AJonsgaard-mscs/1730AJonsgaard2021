@@ -16,40 +16,34 @@ namespace AJonsgaard2H
 
         protected void DateCalculationsButton_Click(object sender, EventArgs e)
         {
-            // 1) Now
             TextBox1aResult.Text = DateTime.Now.ToShortDateString();
             TextBox1bResult.Text = DateTime.Now.ToShortTimeString();
-
-            // 2) Today
             TextBox2aResult.Text = DateTime.Today.ToShortDateString();
             TextBox2bResult.Text = DateTime.Today.ToShortTimeString();
-
-            // 3) Year, Month, Day
             TextBox3aResult.Text = DateTime.Today.Year.ToString();
             TextBox3bResult.Text = DateTime.Today.Month.ToString();
             TextBox3cResult.Text = DateTime.Today.Day.ToString();
-
-            // 4) Add Days
             TextBox4Result.Text = DateTime.Today.AddDays(90).ToShortDateString();
-
-            // 5) Add Months
             TextBox5Result.Text = DateTime.Today.AddMonths(3).ToShortDateString();
-
-            // 6) Year, Month, Day String
             TextBox6Reault.Text = Ex2hCalculations.DateCalc06(TextBox6aInput.Text, TextBox6bInput.Text, TextBox6cInput.Text);
-
-            // 7) 
             TextBox7Reault.Text = Ex2hCalculations.DateCalc07(TextBox7.Text);
-
-            // 8)
             TextBox8Reault.Text = Ex2hCalculations.DateCalc08(TextBox8.Text);
-
-            // 9)
-            TextBox9Reault.Text = Ex2hCalculations.DateCalc09(TextBox9a.Text, TextBox9b.Text);
-
-            // 10) 
+            TextBox9Reault.Text = Ex2hCalculations.DateCalc09(TextBox9a.Text, TextBox9b.Text); 
             TextBox10Reault.Text = Ex2hCalculations.DateCalc10(TextBox10a.Text, TextBox10b.Text);
         }
-        
+
+        protected void StringCalculationsButton_Click(object sender, EventArgs e)
+        {
+            TextBox11Reault.Text = Ex2hCalculations.StringCalc01(TextBox11.Text);
+            TextBox12Reault.Text = Ex2hCalculations.StringCalc02(TextBox12.Text);
+            TextBox13Reault.Text = Ex2hCalculations.StringCalc03(TextBox13.Text);
+            TextBox14Reault.Text = Ex2hCalculations.StringCalc04(TextBox14.Text);
+            TextBox15Reault.Text = Ex2hCalculations.StringCalc05(TextBox15.Text);
+            TextBox16Reault.Text = Ex2hCalculations.StringCalc06(TextBox16.Text);
+            TextBox17Reault.Text = Ex2hCalculations.StringCalc07(TextBox17.Text);
+            TextBox18Reault.Text = Ex2hCalculations.StringCalc08(TextBox18.Text);
+            TextBox19Reault.Text = Ex2hCalculations.StringCalc09(TextBox19.Text);
+            Label20Result.Text = Ex2hCalculations.StringCalc10(TextBox17.Text, TextBox18.Text, TextBox19.Text);
+        }
     }
 }

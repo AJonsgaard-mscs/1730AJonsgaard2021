@@ -103,7 +103,7 @@ namespace AJonsgaard2H
             string word = s;
             word = word.Trim();
 
-            if (word.Length != 0 || s.Length == 0)
+            if (word != "" && s.Length != 0)
             {
                 word = word.Remove(0, 1);
                 word = word.Insert(0, "c");

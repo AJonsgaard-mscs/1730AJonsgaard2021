@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMethodsSamp", "..\Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJonsgaard2H.Tests", "..\AJonsgaard2H.Tests\AJonsgaard2H.Tests.csproj", "{38E17489-2514-4F9B-99E5-472FC550B191}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJonsgaard3A", "..\AJonsgaard3A\AJonsgaard3A.csproj", "{CA8129F4-F69F-41C2-BDFF-3EEA0A3264EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJonsgaard3AUnitTests", "..\AJonsgaard3AUnitTests\AJonsgaard3AUnitTests.csproj", "{15C2E176-ED59-4BC8-BFEE-B4B26F55825B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{38E17489-2514-4F9B-99E5-472FC550B191}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38E17489-2514-4F9B-99E5-472FC550B191}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38E17489-2514-4F9B-99E5-472FC550B191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8129F4-F69F-41C2-BDFF-3EEA0A3264EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8129F4-F69F-41C2-BDFF-3EEA0A3264EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8129F4-F69F-41C2-BDFF-3EEA0A3264EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8129F4-F69F-41C2-BDFF-3EEA0A3264EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C2E176-ED59-4BC8-BFEE-B4B26F55825B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C2E176-ED59-4BC8-BFEE-B4B26F55825B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C2E176-ED59-4BC8-BFEE-B4B26F55825B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C2E176-ED59-4BC8-BFEE-B4B26F55825B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
